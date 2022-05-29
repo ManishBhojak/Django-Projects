@@ -1,0 +1,83 @@
+{% extends 'base.html' %}
+{% block title %}Home{% endblock title %}
+
+{% block body %}
+<div id="carouselExampleFade" class="carousel slide carousel-fade my-2" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/static/img/cr1.jpg" class="d-block w-100" alt="Programming image1" height="480">
+      </div>
+      <div class="carousel-item">
+        <img src="/static/img/cr2.jpg" class="d-block w-100" alt="Programming image2" height="480">
+      </div>
+      <div class="carousel-item">
+        <img src="/static/img/cr3.jpg" class="d-block w-100" alt="Programming image3" height="480">
+      </div>
+      <div class="carousel-item">
+        <img src="/static/img/cr4.jpg" class="d-block w-100" alt="Programming image4" height="480">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+   
+  </div>
+
+  <h1 class="heading my-3 text-center">Objectives</h1>
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 my-3 px-5">
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="/static/img/idea.jpg" class="d-block w-100" alt="Programming image4">
+
+        <div class="card-body ">
+          <p class="card-text">“If you do not express your own original ideas, if you do not listen to your own being, you will have betrayed yourself.” —Rollo May<br></p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="group">
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="/static/img/design.jpg" class="d-block w-100" alt="Programming image4">
+
+        <div class="card-body">
+          <p class="card-text my-0">
+            The most important thing about creative expression is that copyright law was created not to stifle creativity but to encourage creativity.</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="group">
+             
+            </div>
+          
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card shadow-sm">
+        <img src="/static/img/creation.jpg" class="d-block w-100" alt="Programming image4">
+
+        <div class="card-body">
+          <p class="card-text">“Writing code is one of the most peaceful things one can do if the intentions are right.”
+            ― Olawale Danie</p>
+          <div class="d-flex justify-content-between align-items-center">
+            <div class="group">
+              
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+{% endblock body %}
